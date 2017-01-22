@@ -8,7 +8,7 @@ RUN DEBIAN_FRONTEND=noninteractive apt-get install subversion g++ zlib1g-dev bui
 libncurses5-dev gawk gettext unzip file libssl-dev wget -y
 
 # Thanks to @werecatf for this work on omega2plus
-RUN git clone https://github.com/WereCatf/source lede
+RUN git clone https://github.com/lede-project/source.git lede-17.01
 
 RUN adduser omega
 
